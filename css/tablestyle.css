@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* position>display>zindex>margin>padding>width>height>abc順 */
+
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'YuGothic', 'Roboto', sans-serif;
+}
+
+header{
+    width:100%; 
+    letter-spacing: 2px;
+    font-weight: 200;
+    text-align: center;
+    color: #fefefe;
+    background-color: #117cb7;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+body{
+    margin: auto;
+    color: #666666;
+    background-color: #fefefe;
+    overflow: scroll;
+}
+
+th, td{
+    font-size: 16px;
+    text-align: center;
+}
+
+.input-field{
+    display: flex;
+    margin-left: 50%;
+    transform: translate3d(-50%,0,0);
+    margin-top: 100px;
+    width: 500px;
+}
+
+#button{
+    padding: 0 20px;
+    margin-left: 10px;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #f7f7f7;
+    background-color: #117cb7;
+}
